@@ -1,0 +1,27 @@
+:set editor emacs
+
+:set prompt "λ> "
+:set prompt2 "|> "
+
+:set -XOverloadedStrings
+
+import qualified Control.Applicative as Applicative
+import qualified Control.Arrow as Arrow
+import qualified Control.Category as Category
+import qualified Control.Exception as Exception
+import qualified Control.Monad as Monad
+
+import qualified Data.Bool as Bool
+import qualified Data.Char as Char
+import qualified Data.Either as Either
+import qualified Data.Function as Function
+import qualified Data.List as List
+import qualified Data.Maybe as Maybe
+import qualified Data.Monoid as Monoid
+
+import qualified System.Environment as Environment
+import qualified System.Exit as System.Exit
+import qualified System.IO as IO
+
+:set +s
+:set +t
