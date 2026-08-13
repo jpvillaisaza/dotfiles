@@ -1,0 +1,10 @@
+[user]
+	name = Juan Pedro Villa Isaza
+	email = 584947+jpvillaisaza@users.noreply.github.com
+	signingkey = ~/.ssh/id_ed25519.pub
+[core]
+	editor = nano
+[alias]
+	last = log -1
+[gpg]
+	format = ssh
