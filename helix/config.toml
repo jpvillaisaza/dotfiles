@@ -1,2 +1,5 @@
 [editor]
 rulers = [70, 80]
+text-width = 70
+trim-final-newlines = true
+trim-trailing-whitespace = true
