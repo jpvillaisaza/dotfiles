@@ -1,0 +1,8 @@
+Host github.com
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_ed25519
+
+# Replace *.example.com with the actual domain
+Host *.example.com
+  IdentitiesOnly yes
+  IdentityFile ~/.ssh/id_ed25519_example
